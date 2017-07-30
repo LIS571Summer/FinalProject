@@ -39,8 +39,9 @@ body {
         <br>
 		<button value="10%" class="btn-style operator opera-bg fall-back">10%</button>
 		<button value="15%" class="btn-style operator opera-bg fall-back">15%</button>
+		<button value="18%" class="btn-style operator opera-bg fall-back">18%</button>
 		<button value="20%" class="btn-style operator opera-bg fall-back">20%</button>
-		<button value="Custom" class="btn-style operator opera-bg fall-back">Custom</button>
+		
         <br>
         Tip: <span id="tip"></span>
         <br>
