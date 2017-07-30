@@ -20,7 +20,7 @@ body {
     	margin: 10px;
     	border-width: 5px;
 }
-	h1 {
+	h1 {background-color:darkgray;
     	color: red;
     	text-align: left;
 }
