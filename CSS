@@ -1,0 +1,21 @@
+body {
+        background-image: url("receipt.jpg");
+        background-size: 300px 500px;
+    	background-repeat: no-repeat;
+} 
+ 
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/868930EB-D29C-F145-AC5C-B2775EFEAD48/main.js" charset="UTF-8"></script></head>
+
+#background {
+    	color: red; 
+    	text-align: left;
+    	border: 5px solid black;
+    	padding: 25px;
+    	margin: 10px;
+    	border-width: 5px;
+}
+	h1 {
+    	color: black;
+    	text-align: left;
+}
