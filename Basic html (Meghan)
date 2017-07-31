@@ -3,29 +3,17 @@
 <title>Tip Calculator</title>
 <link href="style.CSS Sophia" rel="stylesheet" type="text/css">
 <style>
-body {
-        background-image: url("receipt.jpg");
-        background-size: 300px 500px;
-    	background-repeat: no-repeat;
-} 
+body  {background-color : cornflowerblue; color : darkorange; 
+	                   font-family : helvetica; text-align : center;border-style:double;border-width:10px;}
+	         hr      {width:50%; color: darkorange}
+	         h1     {color : red;}
  
 </style>
 <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/868930EB-D29C-F145-AC5C-B2775EFEAD48/main.js" charset="UTF-8"></script></head>
-<style>
-	body {
-    	color: red; 
-    	text-align: left;
-    	border: 5px solid black;
-    	padding: 25px;
-    	margin: 10px;
-    	border-width: 5px;
-}
-	h1 {background-color:darkgray;
-    	color: red;
-    	text-align: left;
-}
- </style>
-     <header>
+<img src="Meghan.jpg" alt="classmate" width="125" style="float:left" />
+<img src="Sophia.jpg" alt="classmate" width="125" style="float:left"/>
+<img src="Alexia2.jpg" alt="classmate" width="125" height="125"style="float:right"/>
+     	<header>
         <h1><b>Tip Calculator</b></h1> 
         <br/>
     </header>
