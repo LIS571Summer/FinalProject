@@ -3,7 +3,7 @@
 <title>Tip Calculator</title>
 <link href="style.CSS Sophia" rel="stylesheet" type="text/css">
 <style>
-body  {background-color : cornflowerblue; color : darkred; 
+body  {background-color : darkcyan; color : darkred; 
 	                   font-family : helvetica; text-align : center;border-style:double;border-width:10px;}
 	         hr      {width:50%; color: red}
 	         h1     {color : red;}
