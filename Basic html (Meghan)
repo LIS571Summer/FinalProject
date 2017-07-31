@@ -40,9 +40,11 @@
 <script>
 	function getTip(percentage){
 		var bill = document.getElementById("bill").value;
+		var tip = bill * (percentage);
 		var total = bill *  (1 + percentage);
 			total = Math.round(total * 100) / 100;
 		document.getElementById("total").innerHTML = "$" + total.toFixed(2);
+		document.getElementById("tip").innerHTML = "$" + Number(tip).toFixed(2);
 		}
 </script>
 </body>
