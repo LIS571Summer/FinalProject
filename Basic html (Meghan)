@@ -5,7 +5,7 @@
 <style>
 body  {background-color : cornflowerblue; color : darkorange; 
 	                   font-family : helvetica; text-align : center;border-style:double;border-width:10px;}
-	         hr      {width:50%; color: darkorange}
+	         hr      {width:50%; color: red}
 	         h1     {color : red;}
  
 </style>
