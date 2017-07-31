@@ -20,36 +20,36 @@ body  {
         <h1><b>Tip Calculator</b></h1> 
         <br/>
     </header>
+    
 <body>
 <div id="wrapper">
-
-    <form action="javascript:void(calc())">
-        Amount: $<input id="bill" type="text">
-        <br>
-        <input type="submit" value="Calculate">
-        <br>
-		<div class="tipamount">
-			<label>Select Tip Amounts</label><br />
-				<button type="button" id="10per">10%</button>
-				<button type="button" id="15per">15%</button>
-				<button type="button" id="18per">18%</button>
-				<button type="button" id="20per">20%</button><br />
+ <form action="javascript:void(calc())">
+        Amount: $<input id="bill" type="text" placeholder="$0.00">
+       	 <br>
+	 <br>
+		<div id="tipper" class="tipamount">
+			<label>Select Tip Amount</label>
+	<br/>
+				<button type="button" onclick="getTip(0.10)" id="10per">10%</button>
+				<button type="button" onclick="getTip(0.15)" id="15per">15%</button>
+				<button type="button" onclick="getTip(0.18)" id="18per">18%</button>
+				<button type="button" onclick="getTip(0.20)" id="20per">20%</button>
+	<br/>
 		</div>
 		
         <br>
         Tip: <span id="tip"></span>
         <br>
         Total: <span id="total"></span>
-    </form>
+  </form>
 </div>
-<script>
-    function calc() {
-        var bill = Number(document.getElementById('bill').value);
-        var tip = bill * .15;
-        var total_bill = bill + tip;
 
-        document.getElementById("tip").innerHTML= "$"+Number(tip).toFixed(2);
-        document.getElementById("total").innerHTML= "$"+Number(total_bill).toFixed(2);         
-    }
+<script>
+	function getTip(percentage){
+		var bill = document.getElementById("bill").value;
+		var total = bill *  (1 + percentage);
+			total = Math.round(total * 100) / 100;
+		document.getElementById("total").innerHTML = "$" + total.toFixed(2);
+		}
 </script>
 </body>
