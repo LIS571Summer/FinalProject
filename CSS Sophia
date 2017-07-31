@@ -2,7 +2,7 @@
 body  {
 		background-color : darkcyan; color : navy;
 		background-image: url("receipt.jpg");
-        	background-size: 450px 200px;
+        	background-size: 450px 240px;
         	background-position: center;
     		background-repeat: no-repeat;
 	        font-family : helvetica; text-align : center;border-style:double;border-width:10px;}
